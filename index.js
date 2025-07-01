@@ -13,6 +13,7 @@ app.use(cors(
 
 app.get("/" , (req , res)=>{
    res.send("hello");
+   
 })
 
 /*app.get("/product" , (req,res)=>{
