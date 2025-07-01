@@ -5,7 +5,7 @@ const app = express();
 
 app.use(cors(
     {
-        origin:"http://localhost:5173",
+        origin:"https://client-blush-psi-28.vercel.app",
         methods:["GET" , "POST" , "PUT" , "DELETE"],
         credentials:true
     }
