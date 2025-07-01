@@ -66,7 +66,7 @@ app.get("/:id" , (req , res)=>{
 
 app.get("/:color" , (req , res)=>{
 
-    res.send(req.params.color);
+    res.send(req.params.color)
 
 })
     
